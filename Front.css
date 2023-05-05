@@ -1,0 +1,8 @@
+.shop-card:hover{
+    z-index: 100;
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.shop-card{
+    transition: all .5s;
+}

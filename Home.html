@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="Front.css">
+    <title>Trends Lebanon</title>
+</head>
+<body>
+    <div class="container-fluid row mt-2">
+        <div class="col-lg-9 col-md-9 col-sm-12">
+        <img src="photo_2023-05-05_20-26-47.jpg" class="rounded-circle m-2" width="100px" style="border: 1px solid black;">
+        <span class="h1">Trends Lebanon</span>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 text-center mt-sm-2 mt-xs-2">
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#sign-up">Sign Up</button>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md bg-body-tertiary text-center" style=" width: 100%;">
+        <div class="container-fluid d-flex " style=" width: 55%;">
+          <button class="navbar-toggler position-absolute start-0 top-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+                    <!--Shop dropdown-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mens</a></li>
+                  <li><a class="dropdown-item" href="#">Womens</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact us</a>
+              </li class="position-absolute end-2">
+              <button type="button" class="btn btn-info position-relative">
+                <img src="Icons/cart.PNG" class="me-2" width="25px" alt=""> Cart <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"> 0 <span class="visually-hidden">unread messages</span></span>
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <!--Shop dropdown-->
+      <div class="container parent">
+      <h1 class="display-5 text-center">WELCOME TO OUR CLOTHING SHOP</h1>
+      <div class="dropdown text-center" style="text-decoration-style: none;">
+        <a class="btn btn-primary btn-lg dropdown-toggle m-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          SHOP NOW
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Mens</a></li>
+          <li><a class="dropdown-item" href="#">Womens</a></li>
+        </ul>
+      </div>
+      
+      <br><br>
+<!--New Product-->
+      <h5 class="display-6 text-center">
+        OUR New PRODUCTS
+      </h5>
+
+            <!--Slide version-->
+      <div id="carouselExample" class="carousel slide " style="width: 300px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="col-12 rounded-3" src="Pictures/Men-Letter-Palm-Tree-Graphic-Print-Tee.jpg" alt="">
+            <span class="h4 col-12 m-2">Product 1</span>
+            <button class="btn btn-primary mb-2">25$</button>
+          </div>
+          <div class="carousel-item">
+            <img class="col-12 rounded-3"  src="Pictures/TieDye-desktop.jpg" alt="" >
+            <span class="h4 col-12 m-2">Product 2</span>
+            <button class="btn btn-primary mb-2">55$</button>
+          </div>
+          <div class="carousel-item">
+            <img class="col-12 rounded-3"  src="Pictures/UnityPalms.jpg" alt="">
+            <span class="h4 col-12 m-2">Product 3</span>
+            <button class="btn btn-primary  mb-2">45$</button>
+          </div>
+          <div class="carousel-item">
+            <img class="col-12 rounded-3"  src="Pictures/MenBird.jpg" alt="">
+            <span class="h4 col-12 m-2">Product 4</span>
+            <button class="btn btn-primary mb-2">30$</button>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+            <!--My version-->
+      <div class="mt-3 row p-0 text-center">
+        <div class="shop-card row col-lg-3 col-md-6 col-sm-12 col-xs-10 mt-3 me-1 shadow-lg border border-dark rounded" style="background-image: url(Pictures/Men-Letter-Palm-Tree-Graphic-Print-Tee.jpg);">
+            <img class="col-12 rounded-3" src="Pictures/Men-Letter-Palm-Tree-Graphic-Print-Tee.jpg" alt="" style="visibility: hidden;">
+            <span class="h4 col-12 m-2">Product 1</span>
+            <button class="btn btn-primary rounded-3 mb-2">25$</button>
+        </div>
+        <div class="shop-card row col-lg-3 col-md-6 col-sm-12 col-xs-10 mt-3 me-1 shadow-lg border border-dark rounded" style="background-image: url(Pictures/TieDye-desktop.jpg); background-size: cover;">
+            <img class="col-12 rounded-3"  src="Pictures/Men-Letter-Palm-Tree-Graphic-Print-Tee.jpg" alt="" style="visibility: hidden;">
+            <span class="h4 col-12 m-2">Product 2</span>
+            <button class="btn btn-primary rounded-3 mb-2">55$</button>
+        </div>
+        <div class="shop-card row col-lg-3 col-md-6 col-sm-12 col-xs-10 mt-3 me-1 shadow-lg border border-dark rounded"   style="background-image: url(Pictures/UnityPalms.jpg);  background-size: cover;">
+            <img class="col-12 rounded-3"  src="Pictures/Men-Letter-Palm-Tree-Graphic-Print-Tee.jpg" alt="" style="visibility: hidden;">
+            <span class="h4 col-12 m-2">Product 3</span>
+            <button class="btn btn-primary rounded-3 mb-2">45$</button>
+        </div>
+        <div class="shop-card row col-lg-3 col-md-6 col-sm-12 col-xs-10 mt-3 me-1 shadow-lg border border-dark rounded" style="background-image: url(/Pictures/HeartPrint.jpg);  background-size: cover;">
+            <img class="col-12 rounded-3"  src="Pictures/Men-Letter-Palm-Tree-Graphic-Print-Tee.jpg" alt="" style="visibility: hidden;">
+            <span class="h4 col-12 m-2">Product 4</span>
+            <button class="btn btn-primary rounded-3 mb-2">30$</button>
+        </div>
+      </div>
+      <h5 class="display-6 text-center mt-3 mb-3" id="about-us">
+        About US
+      </h5>
+      <span class="p-1" >
+        <p>Trends Lebanon is an online clothing store that offers the latest fashion trends to customers all over the world. We specialize in providing high-quality and stylish clothing for men, women, and children at affordable prices. Our collection is carefully curated to include a wide range of styles, from casual wear to formal attire, to meet the needs of all fashion lovers. We are committed to providing our customers with exceptional service, fast shipping, and hassle-free returns. At Trends Lebanon, we believe that fashion should be accessible to everyone, and we strive to make shopping for clothes a fun and enjoyable experience. Shop with us today and discover the latest trends in fashion!</p>
+      </span>
+<!--Contact us-->
+      <h5 class="display-6 text-center  mt-3 mb-3" id="contact-us">
+        Contact Us
+      </h5>
+      <!--Table version-->
+      <div class="border border-3 border-dark rounded-4">
+        <table class="table ">
+            <thead class="text-center text-black">
+                <th>Call us</th>
+                <th>Location</th>
+            </thead>
+            <tr>
+                <td>&#128222; +961 81 065 544</td>
+                <td>&#128205; Lebanon,Beirut,Airport Road,Next to Cafe77</td>
+            </tr>
+            <tr>
+                <td>&#128222; +961 70 863 533</td>
+                <td>&#128205; Lebanon,Beirut,Al-Hamra,Bless street</td>
+            </tr>
+            <tr>
+                <td>&#128231; trend_lb_shop@gmail.com</td>
+                <td>&#128205; Lebanon,Aley,Aley Center</td>
+            </tr>
+        </table>
+    </div>
+      <!--Non-Table version-->
+      <div class="row text-secondary bg-primary rounded-3">
+        <div class="col-lg-6 col-12 bg-secondary text-primary rounded-3 m-3">
+            <h1 class="h4 text-center text-secondary mt-3">Call Us</h1>
+            <h5 class="h5"> &#128222; +961 81 065 544 <br> &#128222; +961 70 863 533 <br> &#128231; trend_lb_shop@gmail.com</h5>
+        </div>
+        <div class="col-lg-5 col-12 bg-secondary text-primary rounded-3 m-3">
+            <h1 class="h4 text-center text-secondary mt-3">Location</h1>
+            <h5 class="h5">&#128205; Lebanon,Beirut,Airport Road,Next to Cafe77</h5>
+        </div>
+      </div>
+    </div>
+
+    <footer class="card-footer bg-dark text-light text-center p-4 mt-5">
+        <p>&copy; 2023 Trends Lebanon. All Rights Reserved.</p>
+    </footer>
+
+
+
+<!--Sign up Pop-window-->
+    <div class="modal fade" id="sign-up" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="">
+            <div class="modal-body text-center">
+              <input class="btn btn-secondary border" type="text" name="name" placeholder="Full Name *" required><br><br>
+              <input class="btn btn-secondary border" type="text" name="email" placeholder="Email *" required><br><br>
+              <input class="btn btn-secondary border" type="text" name="phone" placeholder="Phone Number *" required><br><br>
+              <input class="btn btn-secondary border" type="password" name="pass1" placeholder="Password *" required><br><br>
+              <input class="btn btn-secondary border" type="password" name="pass2" placeholder="Current Password *" required><br><br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Sign Up</button>
+            </div>
+        </form>
+          </div>
+        </div>
+      </div>
+<!--Login Pop-window-->
+      <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="">
+            <div class="modal-body text-center">
+              <input class="btn btn-secondary border" type="text" name="name-login" placeholder="Phone Number" required><br><br>
+              <input class="btn btn-secondary border" type="password" name="email-login" placeholder="Password" required><br><br>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success">Login</button>
+            </div>
+        </form>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
