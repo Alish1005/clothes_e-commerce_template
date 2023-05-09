@@ -6,3 +6,11 @@
 .shop-card{
     transition: all .5s;
 }
+.modal-body>.btn{
+    width: 80%;
+}
+.modal-body > .btn :focus{
+    border: 1px solid black;
+    box-shadow: 3px 4px 5px cyan;
+    transition: all .5s;
+}
