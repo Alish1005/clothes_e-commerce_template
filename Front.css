@@ -14,3 +14,12 @@
     box-shadow: 3px 4px 5px cyan;
     transition: all .5s;
 }
+
+.dashboard-a:target + .dashboard{
+position: absolute;
+left: 0;
+}
+.dashboard-a:not(:target)+ .dashboard{
+    position: absolute;
+    left: -10%;
+    }
